@@ -13,6 +13,9 @@
     execute_commands:
     - "pip install -r requirements.txt"
     - "nosetests"
+    setup_commands:
+    - "apt get install "
+    - "apt get update"
     cached_dirs:
     - "/root/.cache/pip"
     shell: "BASH"
